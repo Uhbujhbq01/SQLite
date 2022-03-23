@@ -1,0 +1,15 @@
+html,body, header, #intro {height: 100%; background-color: #D3D3D3;}
+.top-nav-collapse {background: linear-gradient(to top left, black, black);}
+@media (max-width: 768px) {.navbar: not(.top-nav-collapse) {background-color: white;}}
+.navbar a {font-family: 'Lobster', cursive; font-size: 20px; color: white !important;}
+.navbar a:hover {color: #BDB76B !important;}
+.nav-link.active {color: #BDB76B !important;}
+p { font-size: 20px;}
+h2 {font-family: 'Lobster', cursive;}
+.card-text {color: black !important;}
+#intro {background: url(../img/shapka.jpg) no-repeat center center fixed;
+-webkit-background-size:cover; background-size: cover;}
+.success-color {background-color: #696969 !important; margin-top: 3rem; color: white;}
+footer {background-color: black !important;}
+footer a {color: white !important;}
+footer a:hover {color: #BDB76B !important;}
